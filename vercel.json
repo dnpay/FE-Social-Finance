@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:match*",
-            "destination": "https://be-social-finance.vercel.app:match*"
+            "destination": "https://be-social-finance.vercel.app/:match*"
         },
         {
             "source": "/:match*",
